@@ -39,7 +39,7 @@ function exampleOne(basicData,fromJsonData){
 //특정 HTML요소에 값을 넣는 것을 가정
 const element = "";
 element.innerHTML = exampleOne(basicData,fromJsonData);
-//위의 fromJsonData와 같은 객체나 JSON을 생성하기 위한생성자함수, 클래스함수를 작성.
+//위의 fromJsonData와 같은 객체나 JSON을 생성하기 위한 생성자함수, 클래스함수를 작성.
 //setter기능을 활용하여 인스턴스의 값들을 모두 "문자열"만 들어가도록 안전성을 확보
 class exampleTwo{
   constructor(){
