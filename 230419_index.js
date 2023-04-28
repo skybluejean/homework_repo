@@ -1,3 +1,6 @@
+//released in 20230420 02AM
+
+
 //정적인 객체 리터럴, 데이터를 넣을 자리를 마련 
 let basicData = {
   header : {},
@@ -43,6 +46,6 @@ element.innerHTML = exampleOne(basicData,fromJsonData);
 //setter기능을 활용하여 인스턴스의 값들을 모두 "문자열"만 들어가도록 안전성을 확보
 class exampleTwo{
   constructor(){
-    
+
   }
 }
